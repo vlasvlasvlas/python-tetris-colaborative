@@ -1,0 +1,19 @@
+# main.py
+import pygame
+from config import SCREEN_WIDTH, SCREEN_HEIGHT, FPS
+from models import Board
+from player import Player
+from menus import main_menu, game_over_menu
+
+def main():
+    pygame.init()
+    screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+    pygame.display.set_caption("Tetris Cooperativo")
+    clock = pygame.time.Clock()
+
+    board = Board()
+    # Inicializar jugadores
+    # Lógica principal del juego
+
+if __name__ == "__main__":
+    main()
